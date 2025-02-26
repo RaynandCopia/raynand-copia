@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .navbar{
     background-color: gray;
     font-size: 150%;
@@ -100,4 +101,108 @@
 }
 #services{
     background: gray;
+=======
+.navbar{
+    background-color: gray;
+    font-size: 150%;
+}
+
+.navbar .nav-link{
+    color: aqua;
+
+}
+.btn {
+    padding: 20px 30px;
+    border: 2px solid rgb(red, green, blue);
+    border-radius: 60px;
+    transition: all ease-in 0.5x;
+   
+
+}
+
+.logo{
+    width: 10%;
+}
+.btn-search{
+    padding: 20px 30px;
+    color: #803737;
+    border-radius: 30%;
+    background-color: #dbcbcb;
+}
+.btn-search:hover {
+    color: #000;
+    border: 2px solid palevioletred;
+}
+#banner{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(185, 160, 141, 0.423) 35%, rgba(0, 213, 255, 0.467) 100%), url(pic.jpg);
+    height: 90vh;
+    background-size: cover;
+}
+.h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.banner p {
+     color: rgb(240, 238, 232);
+     font-size: 20px;
+}
+
+#about h2, #about h3{
+    
+    color: red;
+}
+#about img{
+    border:  7px, solid, #ac0c0c;
+    box-shadow:0 0 300px 0 rgba(27, 26, 25, 0.467) ;
+    border-radius: 25px;
+}
+
+#about{
+    position: relative;
+}
+#about:after{
+    content: "";
+    position: ;
+    left: 0;
+    width: 25px;
+    height: 100%;
+    background:gray ;
+
+}
+.card-img-top{
+    
+
+    width: 40%;    
+}
+.card{
+    padding: 25px 20px;
+    transition: all ease-in 0.5s;
+    border:  7px, solid, #ac0c0c;
+    box-shadow:0 0 300px 0 rgba(27, 26, 25, 0.467) ;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.card:hover{
+    background-color: #24c343;
+    box-shadow: 0 0 15px 0 black ;
+}
+.card:hover .card-title
+.card:hover .card-text{
+    color: #7e4f4f;
+
+}
+#services h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: 55px;
+    color: #a0f6a1;
+    margin-bottom: 30px;
+
+}
+#services{
+    background: gray;
+>>>>>>> cad90d5e00b47b9124de205f65de3b9e8bfc5e87
 }
