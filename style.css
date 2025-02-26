@@ -44,3 +44,60 @@
      color: rgb(240, 238, 232);
      font-size: 20px;
 }
+
+#about h2, #about h3{
+    
+    color: red;
+}
+#about img{
+    border:  7px, solid, #ac0c0c;
+    box-shadow:0 0 300px 0 rgba(27, 26, 25, 0.467) ;
+    border-radius: 25px;
+}
+
+#about{
+    position: relative;
+}
+#about:after{
+    content: "";
+    position: ;
+    left: 0;
+    width: 25px;
+    height: 100%;
+    background:gray ;
+
+}
+.card-img-top{
+    
+
+    width: 40%;    
+}
+.card{
+    padding: 25px 20px;
+    transition: all ease-in 0.5s;
+    border:  7px, solid, #ac0c0c;
+    box-shadow:0 0 300px 0 rgba(27, 26, 25, 0.467) ;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.card:hover{
+    background-color: #24c343;
+    box-shadow: 0 0 15px 0 black ;
+}
+.card:hover .card-title
+.card:hover .card-text{
+    color: #7e4f4f;
+
+}
+#services h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: 55px;
+    color: #a0f6a1;
+    margin-bottom: 30px;
+
+}
+#services{
+    background: gray;
+}
