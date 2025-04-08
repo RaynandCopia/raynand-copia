@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .navbar{
     background-color: gray;
     font-size: 150%;
@@ -61,7 +61,7 @@
 }
 #about:after{
     content: "";
-    position: ;
+    position: absolute;
     left: 0;
     width: 25px;
     height: 100%;
@@ -101,7 +101,7 @@
 }
 #services{
     background: gray;
-=======
+}
 .navbar{
     background-color: gray;
     font-size: 150%;
@@ -154,7 +154,7 @@
     color: red;
 }
 #about img{
-    border:  7px, solid, #ac0c0c;
+    border:  7px, solid, #ac0c0c;   
     box-shadow:0 0 300px 0 rgba(27, 26, 25, 0.467) ;
     border-radius: 25px;
 }
@@ -164,8 +164,7 @@
 }
 #about:after{
     content: "";
-    position: ;
-    left: 0;
+    position: left 0;
     width: 25px;
     height: 100%;
     background:gray ;
@@ -204,5 +203,99 @@
 }
 #services{
     background: gray;
->>>>>>> cad90d5e00b47b9124de205f65de3b9e8bfc5e87
+
 }
+
+#reviews {
+    background: rgb(96, 67, 121);
+    padding: 30px;
+   }
+
+   .testimonial {
+    border: 5px solid wheat;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+   }
+
+   .testimonial img {
+    width: 75px;
+    border-radius: 50%;
+    border: 3px solid blue;
+
+   }
+   #faq{
+    background: rgb(17, 2, 31);
+    padding:20px;
+   }
+   .faq-scetion {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+   }
+
+   .accordion-item {
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+   }
+
+   .accordion-button {
+    background-color: rgb(224, 120, 216);
+    border: none;
+    border-bottom: 1px solid violet;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #111111;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+   }
+
+   .accordion-body {
+    border-left: 3px solid plum;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: pink;
+   }
+
+   .accordion-button:not(.collapsed) {
+    background-color: rgb(245, 179, 245);
+    color: beige;
+   }
+
+   .accordion-button:hover {
+    background-color: antiquewhite;
+    color: azure;
+   }
+
+   footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0A1737 ;
+    }
+
+    #footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+    }
+
+    #footer ul.list-unstyled li:hover a {
+    color:  rgb(244, 149, 15) ; 
+    }
+
+    @media screen and (max-width: 767px) {
+        h1 {
+            font-size: 45px !important;
+        }
+
+        section{
+            padding: 60px 20px;
+        }
+
+        #about img {
+            height: 300px;
+            width: 300px;
+            margin: 30px;
+        }
+    }
